@@ -254,12 +254,107 @@ input, textarea{
 }
 
 @media screen and (max-width: 980px){
+    #header{
+        width: 113%;
+    }
 
+    #hBackground, #nav{
+        width: 90%;
+    }
+
+    #footer{
+        position: static;
+    }
+
+    #mainInfo{
+        width: 84%;
+    }
+
+    #mainImage{
+        margin-bottom: 0;
+    }
+
+    #hangmanImage, #rpgImage, #triviaImage, #rutgersImage, #scissorsImage{
+        width: 100%;
+    }
+
+    #hangmanText, #rpgText, #triviaText, #rutgersText, #scissorsText{
+        width: 100%;
+    }
+
+    #hangman, #trivia, #scissors{
+        padding: 0;
+        width: 46%;
+        margin-left: 0;
+        margin-top: 2%;
+        margin-bottom: 6%;
+    }
+
+    #rpg, #rutgers{
+        padding: 0;
+        width: 46%;
+        margin-right: 0;
+        margin-top: 2%;
+        margin-bottom: 6%;
+    }
+
+    input, textarea {
+        width: 98%;
+    }
+
+    
 
 }
 
 @media screen and (max-width: 768px){
+   #header{
+       width: 109%;
+   }
+   #hBackground, #nav{
+        width: 92%;
+    }
 
+    #footer{
+        position: static;
+    }
+
+    #mainInfo{
+        width: 84%;
+    }
+
+    #mainImage{
+        margin-bottom: 0;
+    }
+
+    #hangmanImage, #rpgImage, #triviaImage, #rutgersImage, #scissorsImage{
+        width: 100%;
+    }
+
+    #hangmanText, #rpgText, #triviaText, #rutgersText, #scissorsText{
+        width: 100%;
+    }
+
+    #hangman, #trivia, #scissors{
+        padding: 0;
+        width: 46%;
+        margin-left: 0;
+        margin-top: 2%;
+        margin-bottom: 6%;
+    }
+
+    #rpg, #rutgers{
+        padding: 0;
+        width: 46%;
+        margin-right: 0;
+        margin-top: 2%;
+        margin-bottom: 6%;
+    }
+
+    input, textarea {
+        width: 97%;
+    }
+
+    
 
 }
 
@@ -279,7 +374,6 @@ input, textarea{
         bottom: 0;
         width: 100%;
     }
-    
 
     h1{
         width: 100%;
@@ -305,7 +399,7 @@ input, textarea{
     #mainInfo{
         width: 80%;
         padding: 5%;
-        padding-top: 5%;
+        /* padding-top: 5%; */
         margin-top: 5%;
         margin-bottom: 15%;
     
