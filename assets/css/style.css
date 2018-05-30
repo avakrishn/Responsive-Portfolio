@@ -93,6 +93,9 @@ hr{
 #mainImage{
     width: 160px;
     height: auto; 
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
 }
 
 #middle{
@@ -109,11 +112,6 @@ h2{
     margin: 25px 0px;
 }
 
-#mainImage{
-    margin-right: 30px;
-    margin-bottom: 30px;
-    float: left;
-}
 
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -174,8 +172,11 @@ input, textarea {
 #message{
     height: 150px;
     border-color: #dddddd;
-
     
+}
+
+input, textarea{
+    border: #dddddd 1px solid;
 }
 
 #submit{
@@ -250,5 +251,122 @@ input, textarea {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+
+@media screen and (max-width: 980px){
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+}
+
+@media screen and (max-width: 640px){
+    #header{
+        position: static;
+        background-color: #ffffff; 
+        width: 100%
+    }
+
+    #hBackground, #nav{
+        width: 100%
+    }
+    #footer{
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+
+    h1{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 4% 0;
+        font-size: 30px;
+    }
+
+    #about, #portfolio, #contact{
+        width: 29%;
+        padding: 1% 2%;
+        margin: 2% 0px;
+        text-align: center;
+    
+        
+    }
+
+    #top{
+        margin-bottom: none;
+    }
+
+    #mainInfo{
+        width: 80%;
+        padding: 5%;
+        padding-top: 5%;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    
+    }
+
+    .aboutInfo{
+        text-align: center;
+    }
+
+    h2{
+        /* font-size: 7vw;  */
+        text-align: center;
+    }
+
+    #mainImage{
+        float: none;
+        clear: both;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        
+    }
+
+    .about-p{
+        text-align: left;
+    }
+    
+    #hangmanImage, #rpgImage, #triviaImage, #rutgersImage, #scissorsImage{
+        width: 100%;
+        float: none;
+        clear: both;
+       
+    }
+
+    #hangman, #rpg, #trivia, #rutgers, #scissors{
+        width: 100%;
+        float: none;
+        clear: both;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 12%;
+        text-align: center;
+       
+    }
+
+    #hangmanText, #rpgText, #triviaText, #rutgersText, #scissorsText{
+        width: 100%;
+        bottom: 6%;
+          
+    }
+
+    #images{
+        width: 100%;
+        
+    }
+
+    input, textarea {
+        width: 95%;
+    }
+
+
+    
 }
 
